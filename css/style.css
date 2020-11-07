@@ -1,0 +1,361 @@
+
+
+
+
+
+*{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+body {
+    background: black;
+}
+.conteiner {
+    width: 1242px;
+    margin: auto;
+    height: 770px;
+    overflow: hidden;
+}
+.rightDiv {
+    float: right;
+    height: 100%;
+    width: 996px;
+    margin-right: -176px;
+    background: #f2edf1;
+}
+.head{
+	font-family: arial black;
+	clip-path: polygon(96% 0%, 81% 45%, 100% 100%, 0 100%, 0% 50%, 0 0);
+	text-transform: uppercase;
+	background: #fff;
+	width: 734px;
+	height: 770px;
+	position: absolute;
+}
+.rightDiv, .head{display: inline-block;}
+.content {
+    width: 658px;
+    margin:  auto;
+    padding-top: 1px;
+}
+
+.content h2 {
+}
+.content span{
+	color:#cc3333;
+}
+.content h1 {
+    font-size: 80px;
+}
+
+.content h2 {
+    font-size: 45px;
+    margin: -23px 0;
+}
+
+.content h3 {
+    font-size: 41px;
+}
+.medil{
+	height: 130px;
+	background: black;
+	color: #ffffff;
+	width: 617px;
+	font-family: arial black;
+	text-transform: uppercase;
+	position: absolute;
+	top: 254px;
+	padding: 20px 0 0 68px;
+	transform: skewX(-24deg);
+	margin-left: -39px;
+}
+.medil a {
+    color: #ffffff;
+}
+.blkFday h1 {
+    font-size: 71px;
+}
+.spclOfr {
+    position: absolute;
+    left: 50px;
+    background: #cc3333;
+    padding: 10px 38px;
+    font-size: 23px;
+    font-family: arial black;
+    margin-top: -57px;
+}
+.spclOfrL {
+    position: absolute;
+    left: 244px;
+    background: #cc3333;
+    padding: 0px 11px;
+    font-size: 32px;
+    font-family: arial black;
+    margin-top: -2px;
+}
+
+.medilCont {
+    margin-left: 10px;
+}
+.spclOfr span {
+    position: absolute;
+    right: -30px;
+    width: 1px;
+    height: 1px;
+    top: 0;
+    border-bottom: 36px solid #cc6666;
+    border-right: 30px solid #ffffff0d;
+}
+.spclOfrL .er {
+    position: absolute;
+    left: -30px;
+    width: 1px;
+    height: 1px;
+    bottom: 0px;
+    border-bottom: 36px solid #cc666603;
+    border-right: 30px solid #cc6666;
+}
+
+.spclOfrL h2 {
+    width: 234px;
+}
+
+.spclOfrL .right {
+    width: 126px;
+}
+
+.spclOfrL .right, h2 {
+    display: inline-block;
+}
+.right  h4 {
+    font-size: 18px;
+    font-weight: 300 !important;
+    line-height: 16px;
+}
+
+.right .forU{
+	width: 80px;
+}
+.right span {
+    font-family: arial;
+    letter-spacing: 2px;
+}
+.bottomCla {
+    margin-top: 256px;
+}
+
+.nextClass {
+    font-family: arial;
+    margin: 16px 0  20px 30px;
+    padding-top: 13px;
+}
+
+.nextClass h4, h2 {
+    display: inline-block;
+}
+
+.nextClass h4 {
+    width: 109px;
+    float: left;
+}
+
+.nextClass h2 {
+    width: 495px;
+    font-size: 36px;
+    letter-spacing: -3px;
+    padding-top: 8px;
+}
+
+.classHouer h1 {
+    font-size: 57px;
+    line-height: 26px;
+    padding: 3px 0;
+}
+
+.classHouer h1 lTech {
+    font-size: 20px;
+}
+
+span.lTech {
+    font-size: 27px;
+}
+
+.techRight h2 {
+    color: #cc3333;
+}
+
+
+
+.techRight .forOnly {
+    width: 57px;
+    font-size: 18px;
+    font-family: arial;
+    color: #cc3333;
+    font-weight: 600;
+}
+
+.techRight .forOnly, h2{
+	display: inline-block;
+}
+
+.techRight {
+    width: 248px;
+}
+
+.classHouer h1, .techRight {
+    display: inline-block;
+}
+
+.techRight h3 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.classHouer {
+    border: 5px dashed black;
+    width: 541px;
+    padding: 20px 11px;
+    border-radius: 0 10px;
+}
+
+span.ab {
+    position: absolute;
+    width: 195px;
+    height: 4px;
+    background: #cc3333;
+    margin: 19px 0 21px -191px;
+    transform: rotate(-3deg);
+}
+
+.img {
+    width: 387px;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 700px;
+}
+
+.contact, .img{
+	display: inline-block;
+}
+
+.contact a {
+    display: block;
+    margin: 13px;
+}
+
+
+.contact a span img {
+    width: 25px;
+    float: left;
+}
+
+.logo p {
+    position: absolute;
+    background: #cc3333;
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    margin-left: 70px;
+    padding: 0 1px;
+    color: #fff;
+    font-family: arial;
+    font-weight: 600;
+    margin-top: -22px;
+}
+
+.logoR {
+    background: #fff;
+    padding: 10px  50px 10px 20px;
+    width: 359px;
+    right: -67%;
+    transform: skewX(-13deg);
+    position: relative;
+    top: 13px;
+    height: 100px;
+}
+.rrright {
+    height: 770px;
+    background: #f2eeef;
+}
+
+.logom {
+   
+top: 20px;
+   
+right: 9%;
+   
+position: absolute;
+}
+
+
+.bLink {
+    width: 621px;
+    height: 78px;
+    background: #cc3333;
+    position: relative;
+    right: 113px;
+    transform: skewX(18deg);
+    float: right;
+    margin-top: -92px;
+}
+
+
+.bLink2 {
+    width: 621px;
+    height: 78px;
+    background: #000000;
+    position: relative;
+    right: 85px;
+    transform: skewX(18deg);
+    float: right;
+    margin-top: -5px;
+}
+
+.bLink h2 {
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: arial black;
+    font-size: 28px;
+    letter-spacing: -1.5px;
+    font-style: italic;
+    margin: 21px;
+}
+
+.bLink2 h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: arial black;
+    font-size: 22px;
+    letter-spacing: -1.5px;
+    font-style: italic;
+    margin: 22px;
+}
+.bLink a {
+    color: #fff;
+}
+.bLink2 a {
+    color: #fff;
+}
+section#emailTemplate {
+    background: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
