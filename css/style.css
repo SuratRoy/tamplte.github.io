@@ -246,6 +246,7 @@ img {
 
 .contact, .img{
 	display: inline-block;
+        float: left;
 }
 
 .contact a {
