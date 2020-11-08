@@ -115,6 +115,68 @@ body{max-width: 1000px;margin:auto;}
 
 
 
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+	#header_nam_img, #detail_me, #with_me{
+		width:100%;
+		display: block;
+	}
+	#with_me{
+		width:100%;
+		padding-bottom: 20px;
+		position: relative;
+	}
+	#detail_me{
+		width: 90%;
+		position: relative;
+		margin:;
+		background: #fff;
+		display: block;
+		float: none;
+	}
+	#detail_me div{
+		margin-top: 20px;
+		width:90%;
+	}
+	#detail_me h3{
+		margin: 4px 0;
+	}
+	#detail_me hr{
+		margin-bottom: 8px;
+		width: 90%;
+	}
+	#detail_me p{
+		margin-bottom: 3px;
+		width: 90%;
+		line-height: 23px;
+		font-size: 16px;
+	}
+	#detail_me #skill{width:90%;}
+	#detail_me #skill ul{
+		display: block;
+		margin: 16px 33px;
+		
+	}
+
+	#detail_me #skill #list{float: none;}
+	
+	#experience ul {
+		width: 90%;
+		margin: 0 10px}
+	#experience ul li {line-height: 24px;}
+}
+
+
+
+
+
+
+
 @media only screen and (min-width: 600px) {
 	#header_nam_img{
 		width:100%;
@@ -151,55 +213,7 @@ body{max-width: 1000px;margin:auto;}
 }
 
 
-@media only screen and (max-width: 600px) {
 
-	#header_nam_img, #detail_me, #with_me{
-		display:block;
-		width:100%;
-	}
-	#with_me{
-		width:100%;
-		padding-bottom: 20px;
-		position: relative;
-		top: 1138px;
-	}
-	#detail_me{
-		width:100%;
-		position: absolute;
-		margin:;
-		background: #fff;
-	}
-	#detail_me div{
-		margin-top: 20px;
-		width:90%;
-	}
-	#detail_me h3{
-		margin: 4px 0;
-	}
-	#detail_me hr{
-		margin-bottom: 8px;
-		width: 90%;
-	}
-	#detail_me p{
-		margin-bottom: 3px;
-		width: 90%;
-		line-height: 23px;
-		font-size: 16px;
-	}
-	#detail_me #skill{width:90%;}
-	#detail_me #skill ul{
-		display: block;
-		margin: 16px 33px;
-		
-	}
-
-	#detail_me #skill #list{float: none;}
-	
-	#experience ul {
-		width: 90%;
-		margin: 0 10px}
-	#experience ul li {line-height: 24px;}
-}
 
 
 
@@ -333,10 +347,4 @@ body{max-width: 1000px;margin:auto;}
     
 
 }
-
-
-
-
-
-
 
